@@ -3,8 +3,7 @@ import { Outlet } from 'react-router';
 
 const MainLayout = () => {
     return (
-        <div>
-            <h1>This is mainlayout</h1>
+        <div className='bg-gray-200'>
             <Outlet/>
         </div>
     );
